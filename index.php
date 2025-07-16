@@ -27,217 +27,249 @@
     <section class="main-block">
         <div class="main-content">
             <section class="content-block">
-                <h1>Blog</h1>
+                <h1>Блог</h1>
                 <nav class="blog-nav">
                     <div class="blog-nav-elem blog-nav-elem--active">
-                        <p>All</p>
+                        <p>Все</p>
                     </div>
                     <div class="blog-nav-elem">
-                        <p>Technology</p>
+                        <p>Технологии</p>
                     </div>
                     <div class="blog-nav-elem">
-                        <p>Design</p>
+                        <p>Дизайн</p>
                     </div>
                     <div class="blog-nav-elem">
-                        <p>Marketing</p>
+                        <p>Маркетинг</p>
                     </div>
                     <div class="blog-nav-elem">
                         <p>SEO</p>
                     </div>
                     <div class="blog-nav-elem">
-                        <p>Development</p>
+                        <p>Разработка</p>
                     </div>
                 </nav>
                 
                 <section class="article-group">
                     <div class="technology-block">
-                        <div class="technology-block-banner">
-                            
-                        </div>
+                        <a class="technology-block-banner" href="#">
+                           <img src="./images/technologies/tech1.webp" class="techbology-block-banner-img"/> 
+                        </a>
                         <div class="technology-block-content">
-                            <h3>
-                                Technology
-                            </h3>
+                            <div class="main-article-group">
+                                Технологии
+                            </div>
                             
-                            <h2>
-                                Development Technologies That Are Transforming the Industry: Trends, Tools & the Future
-                            </h2>
+                            <div class="main-article-header">
+                                <a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a>
+                            </div>
                             
-                            <p>We explore which technologies are shaping the future of development, how new tools simplify programmers’ work, improve code quality, and accelerate processes. Which trends are here to stay, and what will become a thing of the past?</p>
+                            <p>Разбираемся, какие технологии сегодня определяют развитие разработки, как новые инструменты упрощают работу программистов,
+                                делает код чище, а процессы - быстрее. Какие тренды останутся с нами надолго, а что уйдёт в прошлое?</p>
                             
-                            <p class="tech-block-content-date">5 March  2025</p>
+                            <p class="tech-block-content-date">5 марта 2025</p>
                         </div>
                     </div>
                     
                     <div class="articles">
-                        <figure>
-                            <div class="img-container">
-                                <img src="./images/grey-bg.png"/>
-                            </div>
-                            <figcaption>
-                                <span class="article-name">Technology</span>
-                                <h3>Development Technologies That Are Transforming the Industry: Trends, Tools & the Future</h3>
-                                <span class="article-date">5 March 2025</span>
-                            </figcaption>
-                        </figure>
+                        <article>
+                            <figure>
+                                <a href="#" class="img-container">
+                                    <img src="./images/technologies/tech2.webp"/>
+                                </a>
+                                <figcaption>
+                                    <div class="article-group">Технологии</div>
+                                    <div class="article-header"><a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a></div>
+                                    <span class="article-date">5 марта 2025</span>
+                                </figcaption>
+                            </figure>
+                        </article>
                         
-                        <figure>
-                            <div class="img-container">
-                                <img src="./images/grey-bg.png"/>
-                            </div>
-                            <figcaption>
-                                <span class="article-name">Technology</span>
-                                <h3>Development Technologies That Are Transforming the Industry: Trends, Tools & the Future</h3>
-                                <span class="article-date">5 March 2025</span>
-                            </figcaption>
-                        </figure>
+                        <article>
+                            <figure>
+                                <a href="#" class="img-container">
+                                    <img src="./images/technologies/tech3.webp"/>
+                                </a>
+                                <figcaption>
+                                    <div class="article-group">Технологии</div>
+                                    <div class="article-header"><a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a></div>
+                                    <span class="article-date">5 марта 2025</span>
+                                </figcaption>
+                            </figure>
+                        </article>
                         
-                        <figure>
-                            <div class="img-container">
-                                <img src="./images/grey-bg.png"/>
-                            </div>
-                            <figcaption>
-                                <span class="article-name">Technology</span>
-                                <h3>Development Technologies That Are Transforming the Industry: Trends, Tools & the Future</h3>
-                                <span class="article-date">5 March 2025</span>
-                            </figcaption>
-                        </figure>
+                        <article>
+                            <figure>
+                                <a href="#" class="img-container">
+                                    <img src="./images/technologies/tech4.webp"/>
+                                </a>
+                                <figcaption>
+                                    <div class="article-group">Технологии</div>
+                                    <div class="article-header"><a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a></div>
+                                    <span class="article-date">5 марта 2025</span>
+                                </figcaption>
+                            </figure>
+                        </article>
                         
-                        <figure>
-                            <div class="img-container">
-                                <img src="./images/grey-bg.png"/>
-                            </div>
-                            <figcaption>
-                                <span class="article-name">Technology</span>
-                                <h3>Development Technologies That Are Transforming the Industry: Trends, Tools & the Future</h3>
-                                <span class="article-date">5 March 2025</span>
-                            </figcaption>
-                        </figure>
+                        <article>
+                            <figure>
+                                <a href="#" class="img-container">
+                                    <img src="./images/technologies/tech5.webp"/>
+                                </a>
+                                <figcaption>
+                                    <div class="article-group">Технологии</div>
+                                    <div class="article-header"><a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a></div>
+                                    <span class="article-date">5 марта 2025</span>
+                                </figcaption>
+                            </figure>
+                        </article>
                         
-                        <figure>
-                            <div class="img-container">
-                                <img src="./images/grey-bg.png"/>
-                            </div>
-                            <figcaption>
-                                <span class="article-name">Technology</span>
-                                <h3>Development Technologies That Are Transforming the Industry: Trends, Tools & the Future</h3>
-                                <span class="article-date">5 March 2025</span>
-                            </figcaption>
-                        </figure>
+                        <article>
+                            <figure>
+                                <a href="#" class="img-container">
+                                    <img src="./images/technologies/tech6.webp"/>
+                                </a>
+                                <figcaption>
+                                    <div class="article-group">Технологии</div>
+                                    <div class="article-header"><a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a></div>
+                                    <span class="article-date">5 марта 2025</span>
+                                </figcaption>
+                            </figure>
+                        </article>
                         
-                        <figure>
-                            <div class="img-container">
-                                <img src="./images/grey-bg.png"/>
-                            </div>
-                            <figcaption>
-                                <span class="article-name">Technology</span>
-                                <h3>Development Technologies That Are Transforming the Industry: Trends, Tools & the Future</h3>
-                                <span class="article-date">5 March 2025</span>
-                            </figcaption>
-                        </figure>
+                        <article>
+                            <figure>
+                                <a href="#" class="img-container">
+                                    <img src="./images/technologies/tech7.webp"/>
+                                </a>
+                                <figcaption>
+                                    <div class="article-group">Технологии</div>
+                                    <div class="article-header"><a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a></div>
+                                    <span class="article-date">5 марта 2025</span>
+                                </figcaption>
+                            </figure>
+                        </article>
+                        
                     </div>
                 </section>
                 
-                
-                <section class="article-group">
+                  <section class="article-group">
                     <div class="technology-block">
-                        <div class="technology-block-banner">
-                            
-                        </div>
+                        <a class="technology-block-banner" href="#">
+                           <img src="./images/technologies/tech1.webp" class="techbology-block-banner-img"/> 
+                        </a>
                         <div class="technology-block-content">
-                            <h3>
-                                Technology
-                            </h3>
+                            <div class="main-article-group">
+                                Технологии
+                            </div>
                             
-                            <h2>
-                                Development Technologies That Are Transforming the Industry: Trends, Tools & the Future
-                            </h2>
+                            <div class="main-article-header">
+                                <a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a>
+                            </div>
                             
-                            <p>We explore which technologies are shaping the future of development, how new tools simplify programmers’ work, improve code quality, and accelerate processes. Which trends are here to stay, and what will become a thing of the past?</p>
+                            <p>Разбираемся, какие технологии сегодня определяют развитие разработки, как новые инструменты упрощают работу программистов,
+                                делает код чище, а процессы - быстрее. Какие тренды останутся с нами надолго, а что уйдёт в прошлое?</p>
                             
-                            <p class="tech-block-content-date">5 March  2025</p>
+                            <p class="tech-block-content-date">5 марта 2025</p>
                         </div>
                     </div>
                     
                     <div class="articles">
-                        <figure>
-                            <div class="img-container">
-                                <img src="./images/grey-bg.png"/>
-                            </div>
-                            <figcaption>
-                                <span class="article-name">Technology</span>
-                                <h3>Development Technologies That Are Transforming the Industry: Trends, Tools & the Future</h3>
-                                <span class="article-date">5 March 2025</span>
-                            </figcaption>
-                        </figure>
+                        <article>
+                            <figure>
+                                <a href="#" class="img-container">
+                                    <img src="./images/technologies/tech2.webp"/>
+                                </a>
+                                <figcaption>
+                                    <div class="article-group">Технологии</div>
+                                    <div class="article-header"><a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a></div>
+                                    <span class="article-date">5 марта 2025</span>
+                                </figcaption>
+                            </figure>
+                        </article>
                         
-                        <figure>
-                            <div class="img-container">
-                                <img src="./images/grey-bg.png"/>
-                            </div>
-                            <figcaption>
-                                <span class="article-name">Technology</span>
-                                <h3>Development Technologies That Are Transforming the Industry: Trends, Tools & the Future</h3>
-                                <span class="article-date">5 March 2025</span>
-                            </figcaption>
-                        </figure>
+                        <article>
+                            <figure>
+                                <a href="#" class="img-container">
+                                    <img src="./images/technologies/tech3.webp"/>
+                                </a>
+                                <figcaption>
+                                    <div class="article-group">Технологии</div>
+                                    <div class="article-header"><a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a></div>
+                                    <span class="article-date">5 марта 2025</span>
+                                </figcaption>
+                            </figure>
+                        </article>
                         
-                        <figure>
-                            <div class="img-container">
-                                <img src="./images/grey-bg.png"/>
-                            </div>
-                            <figcaption>
-                                <span class="article-name">Technology</span>
-                                <h3>Development Technologies That Are Transforming the Industry: Trends, Tools & the Future</h3>
-                                <span class="article-date">5 March 2025</span>
-                            </figcaption>
-                        </figure>
+                        <article>
+                            <figure>
+                                <a href="#" class="img-container">
+                                    <img src="./images/technologies/tech4.webp"/>
+                                </a>
+                                <figcaption>
+                                    <div class="article-group">Технологии</div>
+                                    <div class="article-header"><a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a></div>
+                                    <span class="article-date">5 марта 2025</span>
+                                </figcaption>
+                            </figure>
+                        </article>
                         
-                        <figure>
-                            <div class="img-container">
-                                <img src="./images/grey-bg.png"/>
-                            </div>
-                            <figcaption>
-                                <span class="article-name">Technology</span>
-                                <h3>Development Technologies That Are Transforming the Industry: Trends, Tools & the Future</h3>
-                                <span class="article-date">5 March 2025</span>
-                            </figcaption>
-                        </figure>
+                        <article>
+                            <figure>
+                                <a href="#" class="img-container">
+                                    <img src="./images/technologies/tech5.webp"/>
+                                </a>
+                                <figcaption>
+                                    <div class="article-group">Технологии</div>
+                                    <div class="article-header"><a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a></div>
+                                    <span class="article-date">5 марта 2025</span>
+                                </figcaption>
+                            </figure>
+                        </article>
                         
-                        <figure>
-                            <div class="img-container">
-                                <img src="./images/grey-bg.png"/>
-                            </div>
-                            <figcaption>
-                                <span class="article-name">Technology</span>
-                                <h3>Development Technologies That Are Transforming the Industry: Trends, Tools & the Future</h3>
-                                <span class="article-date">5 March 2025</span>
-                            </figcaption>
-                        </figure>
+                        <article>
+                            <figure>
+                                <a href="#" class="img-container">
+                                    <img src="./images/technologies/tech6.webp"/>
+                                </a>
+                                <figcaption>
+                                    <div class="article-group">Технологии</div>
+                                    <div class="article-header"><a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a></div>
+                                    <span class="article-date">5 марта 2025</span>
+                                </figcaption>
+                            </figure>
+                        </article>
                         
-                        <figure>
-                            <div class="img-container">
-                                <img src="./images/grey-bg.png"/>
-                            </div>
-                            <figcaption>
-                                <span class="article-name">Technology</span>
-                                <h3>Development Technologies That Are Transforming the Industry: Trends, Tools & the Future</h3>
-                                <span class="article-date">5 March 2025</span>
-                            </figcaption>
-                        </figure>
+                        <article>
+                            <figure>
+                                <a href="#" class="img-container">
+                                    <img src="./images/technologies/tech7.webp"/>
+                                </a>
+                                <figcaption>
+                                    <div class="article-group">Технологии</div>
+                                    <div class="article-header"><a href="#">Технологии разработки, которые меняют индустрию: тренды, инструменты и будущее</a></div>
+                                    <span class="article-date">5 марта 2025</span>
+                                </figcaption>
+                            </figure>
+                        </article>
+                        
                     </div>
                 </section>
+                
+                
+               
               
                 <div class="pagination-container">
-                  <button class="show-more">Show 10 more</button>
-                  
+                    <div class="show-more-container">
+                        <a href="#" class="show-more">Показать ещё 10</a>
+                    </div>
+                    
                   <div class="pagination">
-                    <button class="page active">1</button>
-                    <button class="page">2</button>
-                    <button class="page">3</button>
-                    <button class="page">4</button>
-                    <button class="page">5</button>
-                    <button class="next">Вперёд →</button>
+                    <a href="#" class="page active">1</a>
+                    <a href="#" class="page">2</a>
+                    <a href="#" class="page">3</a>
+                    <a href="#" class="page">4</a>
+                    <a href="#" class="page">5</a>
+                    <a href="#" class="next"><span class="not-for-mobile">Вперёд </span>→</a>
                   </div>
                 </div>  
             </section>
