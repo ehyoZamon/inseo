@@ -108,6 +108,7 @@ body{
     border-top: 1px solid var(--text-text-3);
 }
 
+
 .service-card-banner{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -131,7 +132,7 @@ body{
     width: 60%;
 }
 
-.service-card-content h2{
+.service-card-content .service-card-header{
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 48px;
@@ -141,6 +142,13 @@ body{
     padding-top: 0;
     margin-top: 0;
 }
+
+.service-card-header a{
+    font-family: var(--font-family);
+    text-decoration: none;
+    color: var(--text-text-1);
+}
+
 
 .service-card-content p{ 
     font-family: var(--second-family);
@@ -173,6 +181,9 @@ body{
     background: var(--button-main-blue);
 }
 
+.service-card:hover .service-card-link {
+    background: var(--button-main-blue);
+}
 
 
 
@@ -264,8 +275,8 @@ body{
         font-size: 60px;
     }
     
-    .service-card-content h2 {
-        font-size: 36px;
+    .service-card-content .service-card-header {
+        font-size: 40px;
     }
     
     .service-card-content p {
@@ -298,8 +309,8 @@ body{
         width: 80%;
     }
     
-    .service-card-content h2 {
-        font-size: 32px;
+    .service-card-content .service-card-header {
+        font-size: 38px;
     }
     
     .service-card-content p {
@@ -336,8 +347,8 @@ body{
         font-size: 42px;
     }
     
-    .service-card-content h2 {
-        font-size: 28px;
+    .service-card-content .service-card-header {
+        font-size: 36px;
     }
     
     .service-card-content p {
@@ -352,11 +363,11 @@ body{
 
 @media (max-width: 576px) {
     .services-container h1 {
-        font-size: 36px;
+        font-size: 40px;
     }
     
-    .service-card-content h2 {
-        font-size: 24px;
+    .service-card-content .service-card-header {
+        font-size: 34px;
     }
     
     .service-card-banner-img {
@@ -375,7 +386,7 @@ body{
         line-height: 116%;
     }
     
-    .service-card-content h2 {
+    .service-card-content .service-card-header {
         font-size: 32px;
         line-height: 125%;
     }
