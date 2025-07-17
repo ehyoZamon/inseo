@@ -36,12 +36,12 @@
                     </div>
                     <div class="services-cards">
                         <div class="service-card">
-                            <div class="service-card-banner">
+                            <a href="#" class="service-card-banner">
                                 <img src="./images/services/layer1.webp" alt="service-layer 1" class="service-card-banner-img"/>
-                            </div>
+                            </a>
                             <div class="service-card-content">
                                 <div class="service-card-content-container">
-                                    <h2>SEO</h2>
+                                    <div class="service-card-header"><a href="#">SEO</a></div>
                                     <p>Оптимизируем сайт для поисковых систем Google, Bin, Yandex, увеличиваем видимость  и привлекаем трафик.</p>
                                 </div>
                                 <a href="#" class="service-card-link"><img src="./images/services/arrow.svg" alt="arrow"/></a>
@@ -49,12 +49,12 @@
                         </div>
                         
                         <div class="service-card">
-                            <div class="service-card-banner">
+                            <a href="#" class="service-card-banner">
                                 <img src="./images/services/layer2.webp" alt="service-layer 1" class="service-card-banner-img"/>
-                            </div>
+                            </a>
                             <div class="service-card-content">
                                 <div class="service-card-content-container">
-                                    <h2>UX/UI design</h2>
+                                    <div class="service-card-header"><a href="#">UX/UI design</a></div>
                                     <p>Создаем удобный, стильный и логичный интерфейс, который улучшает пользовательский опыт.</p>
                                 </div>
                                 <a href="#" class="service-card-link"><img src="./images/services/arrow.svg" alt="arrow"/></a>
@@ -62,12 +62,12 @@
                         </div>
                         
                         <div class="service-card">
-                            <div class="service-card-banner">
+                            <a href="#" class="service-card-banner">
                                 <img src="./images/services/layer3.webp" alt="service-layer 1" class="service-card-banner-img"/>
-                            </div>
+                            </a>
                             <div class="service-card-content">
                                 <div class="service-card-content-container">
-                                    <h2>Development</h2>
+                                    <div class="service-card-header"><a href="#">Development</a></div>
                                     <p>Превращаем дизайн в работающий сайт с быстрой загрузкой, адаптивностью и нужным функционалом.</p>
                                 </div>
                                 <a href="#" class="service-card-link"><img src="./images/services/arrow.svg" alt="arrow"/></a>
