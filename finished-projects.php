@@ -27,7 +27,7 @@
     <section class="main-block">
         <div class="main-content">
             <section class="content-block">
-                <h1>Наши проекты</h1>
+                <h1>Готовые проекты</h1>
                 <nav class="projects-nav">
                     <div class="projects-nav-elem projects-nav-elem--active">
                         <p>Все</p>
