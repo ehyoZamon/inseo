@@ -200,7 +200,7 @@ body{
 }
 
 .simple-img-container{
-    aspect-ratio: 1/1.15;
+    aspect-ratio: 1.15/1;
 }
 
 .two-articles .img-container{
