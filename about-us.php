@@ -17,6 +17,8 @@
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   
   <!-- CSS -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="./css/about-us.css?v=<?= time(); ?>">
   <!-- Google Fonts: Manrope, Golos Text, Inter -->
   <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Inter&family=Manrope&display=swap" rel="stylesheet">
@@ -56,61 +58,82 @@
             </div>
             
             <section class="content-block">
-                <div class="services">
-                  <div class="service-card">
-                    <div class="service-price">От 30 000 ₽</div>
-                      <a href="#" class="icon-container">
-                        <img src="./images/icons/arrow.svg" alt="SEO Icon" />
-                      </a>
-                    <div class="service-card-header">SEO</div>
-                    <p>Продвижение сайтов в поисковых системах</p>
-                    <div class="service-details">
-                      <strong>Комплексная работа, направленная на:</strong>
-                      <ul>
-                        <li>увеличение количества визитов на сайт из поисковых систем Google, Яндекс, Bing;</li>
-                        <li>увеличение видимости сайта по ключевым запросам.</li>
-                      </ul>
+                <div class="swiper team-swiper team">
+                    <div class="team-header">
+                        <div class="our-team-header">Наша команда</div>
+                        <div class="arrows">
+                            <div class="arrow-left btn-next">
+                                <img src="./images/icons/arrow-left.png" width="10px" alt="arrow-left"/>
+                            </div>
+                            <div class="arrow-right btn-prev">
+                                <img src="./images/icons/arrow-right.png" width="10px" alt="arrow-right"/>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                
-                  <div class="service-card">
-                    <div class="service-price">От 50 000 ₽</div>
-                    <a href="#" class="icon-container">
-                        <img src="./images/icons/arrow.svg" alt="SEO Icon" />
-                      </a>
-                    <div class="service-card-header">UX/UI DESIGN</div>
-                    <p>Делаем интерфейсы удобными и понятными</p>
-                    <div class="service-details">
-                      <strong>Разрабатываем продуманный дизайн, который:</strong>
-                      <ul>
-                        <li>упрощает взаимодействие с сайтом;</li>
-                        <li>удерживает пользователей;</li>
-                        <li>влияет на конверсию.</li>
-                      </ul>
+                    
+                    <div class="swiper-wrapper">
+                        <figure class="swiper-slide member">
+                            <div class="img-container">
+                                <img src="../../images/test/member2.jpg" alt="member1"/>
+                            </div>
+                            <figcaption>
+                                <div class="member-name">Иван Иванов</div>
+                                <div class="member-position">Арт-директор</div>
+                            </figcaption>
+                        </figure>
+                        <figure class="swiper-slide member">
+                            <div class="img-container">
+                                <img src="../../images/test/member1.jpg" alt="member1"/>
+                            </div>
+                            <figcaption>
+                                <div class="member-name">Юлия Фёдоровна</div>
+                                <div class="member-position">Арт-директор</div>
+                            </figcaption>
+                        </figure>
+                        <figure class="swiper-slide member">
+                            <div class="img-container">
+                                <img src="../../images/test/member2.jpg" alt="member1"/>
+                            </div>
+                            <figcaption>
+                                <div class="member-name">Иван Иванов</div>
+                                <div class="member-position">Арт-директор</div>
+                            </figcaption>
+                        </figure>
+                        <figure class="swiper-slide member">
+                            <div class="img-container">
+                                <img src="../../images/test/member1.jpg" alt="member1"/>
+                            </div>
+                            <figcaption>
+                                <div class="member-name">Юлия Фёдоровна</div>
+                                <div class="member-position">Арт-директор</div>
+                            </figcaption>
+                        </figure>
+                        <figure class="swiper-slide member">
+                            <div class="img-container">
+                                <img src="../../images/test/member2.jpg" alt="member1"/>
+                            </div>
+                            <figcaption>
+                                <div class="member-name">Иван Иванов</div>
+                                <div class="member-position">Арт-директор</div>
+                            </figcaption>
+                        </figure>
+                        <figure class="swiper-slide member">
+                            <div class="img-container">
+                                <img src="../../images/test/member1.jpg" alt="member1"/>
+                            </div>
+                            <figcaption>
+                                <div class="member-name">Юлия Фёдоровна</div>
+                                <div class="member-position">Арт-директор</div>
+                            </figcaption>
+                        </figure>
+                        
                     </div>
-                  </div>
-                
-                  <div class="service-card">
-                    <div class="service-price">От 80 000 ₽</div>
-                    <a href="#" class="icon-container">
-                        <img src="./images/icons/arrow.svg" alt="SEO Icon" />
-                      </a>
-                    <div class="service-card-header">DEVELOPMENT</div>
-                    <p>Создаём сайты под любые задачи</p>
-                    <div class="service-details">
-                      <strong>Выполняем работы по созданию сайтов, включая:</strong>
-                      <ul>
-                        <li>создание сайтов под ключ;</li>
-                        <li>вёрстку сайтов по готовому шаблону;</li>
-                        <li>работу с любыми CMS (WordPress, Bitrix, Tilda, Web-Flow и др.).</li>
-                      </ul>
-                    </div>
-                  </div>
                 </div>
             </section>    
         </div>
     </section>
 </body>
 
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/about-us.js?v=<?= time(); ?>"></script>
 </html>

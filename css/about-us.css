@@ -152,92 +152,112 @@ body{
     margin-top: 40px;
 }
 
-
-/*START OF SERVICE-CARDS*/
-.services {
+.team-header {
   display: flex;
-  gap: 2%;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  font-family: var(--font-family);
-}
-
-.service-card {
-  background-color: var(--background-bg-4);
-  border-radius: 20px;
-  padding: 30px 30px;
-  max-width: 32%;
-  width: 32%;
-  position: relative;
-  transition: transform 0.3s ease;
-  text-align: left;
-}
-
-.service-card:hover {
-  transform: translateY(-50px);
-}
-
-.service-price {
-  color: var(--text-text2);
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.service-card .service-card-header {
-  font-size: 30px;
-  margin: 0 0 10px;
-  color: var(--text-text-1);
-  font-weight: 500;
-}
-
-.service-card p {
-  font-size: 16px;
-  color: #1e1f23;
-  margin-bottom: 20px;
-}
-
-.service-details{
-    margin-top: 70px;
-}
-
-.service-details strong {
-  display: block;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-
-.service-details ul {
-  list-style: disc;
-  padding-left: 20px;
-  color: #2b2e34;
-  font-size: 15px;
-  line-height: 1.6;
-}
-
-.service-details ul li::marker {
-  color: var(--text-link); 
-  font-size: 1.2em; 
-}
-
-.service-details li {
-  margin-bottom: 8px;
-}
-
-.icon-container {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  width: 20px;
-  height: 20px;
-}
-
-.icon-container img {
+  justify-content: space-between; 
+  align-items: center;            
   width: 100%;
-  height: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-/*END OF SERVICE-CARDS*/
+.our-team-header{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: var(--text-text-1);
+}
+
+.arrow-left, .arrow-right{
+    display: inline-grid;
+    place-items: center;
+    width: 56px;
+    aspect-ratio: 1/1;
+    background-color: var(--background-bg-blue);
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.members{
+    display: grid;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    gap: 2%;
+}
+
+.member{
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.member .member-name{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 119%;
+    color: var(--text-text-1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.member .member-position{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--text-text-1);
+    border-radius: 100px;
+    padding: 6px 16px 8px 16px;
+    background: var(--background-bg-4);
+    width: auto;
+    display: inline-block;
+}
+
+
+.member .img-container{
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+    overflow: hidden; 
+    border-radius: 32px;
+}
+
+.member img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    object-fit: cover;
+}
+
+.member figcaption{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 1500px){
+    .our-team-header {
+        font-size: 34px;
+    }
+    
+    .member .member-name {
+        font-size: 24px;
+        margin-top: 15px;
+        margin-bottom: 12px;
+    }
+    
+    .member .member-position{
+        font-size: 18px;
+    }
+    
+    .member .img-container {
+        border-radius: 24px;
+    }   
+}
 
 @media (max-width: 1360px) {
   .banner h1 {
@@ -284,11 +304,14 @@ body{
     font-size: 16px;
   }
   
-  .service-card {
-    max-width: 48%;
-    width: 48%;
-    margin-bottom: 20px;
-  }
+    .member .member-name {
+        font-size: 28px;
+    }
+    
+    .member .member-position {
+        font-size: 16px;
+    }
+  
 }
 
 @media (max-width: 992px) {
@@ -327,13 +350,16 @@ body{
     padding: 30px;
   }
   
-  .service-card {
-    padding: 25px;
-  }
-  
-  .service-card .service-card-header {
-    font-size: 26px;
-  }
+    .our-team-header {
+        font-size: 64px;
+        line-height: 130%;
+    }
+    
+    
+    .member .img-container {
+        border-radius: 24px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -375,19 +401,37 @@ body{
     padding: 20px;
     border-radius: 30px;
   }
-  
-  .services {
-    margin-top: 30px;
-  }
-  
-  .service-card {
-    max-width: 100%;
-    width: 100%;
-  }
-  
-  .service-card:hover {
-    transform: translateY(-20px);
-  }
+    
+    .member .img-container {
+        border-radius: 20px;
+    }
+    
+    .arrows {
+        gap: 10px;
+    }
+    
+    .arrow-left, .arrow-right {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .member .member-name{
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 120%;
+    }
+    
+    .member .member-position{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 143%;
+    }
+    
+    .our-team-header{
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 125%;
+    }
 }
 
 @media (max-width: 650px){
@@ -399,6 +443,24 @@ body{
       grid-template-columns: 39% 59%;
       gap: 2%;
   }
+  
+    .member .member-name{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+    }
+    
+    .member .member-position{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 143%;
+    }
+    
+    .our-team-header{
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 125%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -422,86 +484,104 @@ body{
     padding: 15px;
   }
   
-  .service-card {
-    padding: 20px;
-  }
-  
-  .service-card .service-card-header {
-    font-size: 30px;
-  }
-  
-  .service-price {
-    font-size: 18px;
-  }
-  
-  .icon-container {
-    top: 15px;
-    right: 15px;
-    width: 20px;
-    aspect-ratio: 1/1;
-  }
+    .team-header {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .our-team-header {
+        font-size: 34px;
+    }
+    
+    .member .img-container {
+        border-radius: 16px;
+    }
+    
+    .arrow-left, .arrow-right {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .arrow-left img, .arrow-right img {
+        width: 8px;
+    }
+    
+    .member .member-name{
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 120%;
+    }
+    
+    .member .member-position{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 143%;
+    }
+    
+    .our-team-header{
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 125%;
+    }      
+}
+
+@media (max-width: 500px){
+    .team-header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .team-header .arrows{
+        display: none;
+    }
 }
 
 @media (max-width: 375px) {
-  .banner {
-    padding: 10px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
+    .banner {
+        padding: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
   
-  .banner h1 {
-    font-size: 32px;
-    line-height: 112%;
-  }
+    .banner h1 {
+        font-size: 32px;
+        line-height: 112%;
+    }
   
-  .banner .num-block {
-    width: 100%;
-    padding: 16px;
-    border-radius: 16px;
-  }
+    .banner .num-block {
+        width: 100%;
+        padding: 16px;
+        border-radius: 16px;
+    }
   
-  .banner .num-block-header {
-    font-size: 26px;
-    line-height: 117%;
-  }
+    .banner .num-block-header {
+        font-size: 26px;
+        line-height: 117%;
+    }
   
-  .banner .num-block p {
-    font-size: 13px;
-    line-height: 154%;
-  }
-  
-  .service-card {
-    padding: 15px;
-  }
-  
-  .service-card .service-card-header {
-    font-size: 28px;
-    line-height: 129%;
-  }
-  
-  .service-price {
-    font-size: 16px;
-    line-height: 137%;
-  }
-  
-  .service-card p{
-      font-size: 14px;
-      line-height: 143%;
-  }
-  
-  .service-details {
-    margin-top: 50px;
-    font-size: 14px;
-    line-height: 143%;
-  }
-
-  
-  .icon-container {
-    top: 15px;
-    right: 15px;
-    width: 20px;
-    aspect-ratio: 1/1;
-  }
+    .banner .num-block p {
+        font-size: 13px;
+        line-height: 154%;
+    }
+      
+    .member .member-name{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+    }
+    
+    .member .member-position{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 143%;
+    }
+    
+    .our-team-header{
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 125%;
+    }
 }
 
 
@@ -526,22 +606,7 @@ body{
     font-size: 13px;
   }
   
-  .service-card {
-    padding: 15px;
-  }
   
-  .service-card .service-card-header {
-    font-size: 20px;
-  }
-  
-  .service-details {
-    margin-top: 50px;
-  }
-  
-  .icon-container {
-    top: 15px;
-    right: 15px;
-  }
 }
 
 
