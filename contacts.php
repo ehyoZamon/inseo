@@ -72,7 +72,7 @@
                                 <div class="tiny-header">Адрес</div>
                                 <div class="address-links">
                                     <p>
-                                        Georgia, City Batumi, Zhiuli Shartava Avenue, N 32, Apartment N87, Floor 6
+                                        Georgia, City Batumi, Zhiuli Shartava Avenue, N&nbsp;32, Apartment&nbsp;N87, Floor&nbsp;6
                                     </p>
                                 </div>
                             </div>
